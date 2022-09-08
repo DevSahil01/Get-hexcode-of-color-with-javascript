@@ -1,0 +1,45 @@
+.box{
+    margin-top:20px;
+    margin-left:200px;
+    margin-top: 20px;
+    display: block;
+    height: 100px;
+    width:100px;
+    border:2px solid rgb(0, 0, 0);
+}
+.btn{
+    margin-top:20px;
+    margin-left: 200px;
+    padding-top:9px;
+    padding-bottom:9px;
+    background-color: rgb(43, 43, 134);
+    font-size: 20px;
+    height:40px;
+    width:50%;
+    border:none;
+    color:white;
+}
+#container{
+    margin-left:200px;
+    margin-right:200px;
+    display: flex;
+    flex-direction: column;
+}
+.color{
+    margin-top:20px;
+    margin-left: 200px;
+    width:100px;
+    height: 30px;
+}
+label{
+    margin-top:20px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.display{
+    height: 50px;
+    width:500px;
+    background-color: rgb(228, 242, 254);
+    font-size: 30px;
+    text-align: center;
+}

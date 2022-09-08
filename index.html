@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" >
+    <title>color change code</title>
+</head>
+
+<body>
+    <div id="container">
+        <label for="color">Select color</label>
+        <input type="color" class="color" id="color" >
+        <button type="submit" value="submit" class="btn" onclick="getcolor()">click</button>
+        <div class="box" id="box">
+        </div>
+    </div>
+    <script>
+        function getcolor(){
+            var color=document.getElementById("color").value
+            var box=document.getElementById("box")
+            box.innerHTML=`
+            <div class="inner_box" style="background-color:${color};display:block;height:100px;width:100px">
+                </div>
+                <h3>hex code</h3>
+                <h3 class="display">${color}</h3>
+            `
+        } 
+    </script>
+    
+</body>
+</html>
